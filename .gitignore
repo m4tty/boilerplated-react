@@ -1,4 +1,8 @@
 node_modules
 .tmp
-.idea
 dist
+build
+*.swp
+*.swn
+*.swo
+.sass-cache

@@ -1,0 +1,12 @@
+@import "variables";
+@import "bootstrap/mixins";
+@import "bootstrap/normalize";
+@import "font-awesome";
+@import "bootstrap";
+
+@import "bootswatch-variables";
+@import "bootswatch";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
