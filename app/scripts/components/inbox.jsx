@@ -2,10 +2,12 @@
 
 var React = require('react'),
 
+		Navigation = require('./navigation.jsx'),
     Inbox = React.createClass({
       render: function() {
         return (
-          <h1 className="Inbox">inbox</h1>
+					<div><Navigation />
+          <h1 className="Inbox">inbox</h1></div>
         )
       }
     });
